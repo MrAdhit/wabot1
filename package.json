@@ -1,0 +1,24 @@
+{
+  "name": "mrwhatsapp-bot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc -b",
+    "start": "tsc -b && node ./dist/index.js",
+    "test": "tsc -b && node ./dist/lib.test.js"
+  },
+  "keywords": [],
+  "author": "MrAdhit <adhityarimba97@gmail.com>",
+  "license": "BSD-3-Clause",
+  "dependencies": {
+    "ffi-napi": "^4.0.3",
+    "url-parse": "^1.5.10",
+    "whatsapp-web.js": "^1.18.2",
+    "ytdl-core": "^4.11.2"
+  },
+  "devDependencies": {
+    "@types/ffi-napi": "^4.0.6",
+    "@types/url-parse": "^1.4.8"
+  }
+}
